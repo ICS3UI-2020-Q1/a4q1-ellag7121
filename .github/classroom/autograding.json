@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Sample 1",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "85",
+      "output": "Please enter an integer to count down to\r\nCount Down:\r\n100\r\n95\r\n90\r\n85\r\n",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Sample 2",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "78",
+      "output": "Please enter an integer to count down to\r\nCount Down:\r\n100\r\n95\r\n90\r\n85\r\n80\r\n",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}
